@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "BooksAngularApp"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-BooksAngularApp-a52f4656-3a1c-4e3a-a131-9441b99c546f;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
