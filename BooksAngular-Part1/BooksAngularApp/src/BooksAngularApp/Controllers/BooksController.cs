@@ -12,6 +12,8 @@ namespace BooksAngularApp.Controllers
     [Route("api/[controller]")]
     public class BooksController : Controller
     {
+
+
         [HttpGet]
         public IEnumerable<Book> Get()
         {

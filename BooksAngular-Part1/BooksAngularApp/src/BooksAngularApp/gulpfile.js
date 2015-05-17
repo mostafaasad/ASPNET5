@@ -1,4 +1,4 @@
-﻿/// <binding Clean='clean' />
+﻿/// <binding AfterBuild='copy, copyapp' Clean='clean' ProjectOpened='cleanappp, copy' />
 
 var gulp = require("gulp"),
   rimraf = require("rimraf"),

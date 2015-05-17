@@ -8,6 +8,7 @@
     function booksController($scope, Books)
     {
         $scope.books = Books.query();
+        
     }
 
 })();

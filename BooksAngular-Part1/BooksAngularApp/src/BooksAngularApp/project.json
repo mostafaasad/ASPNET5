@@ -25,14 +25,15 @@
     "Microsoft.Framework.CodeGenerators.Mvc": "1.0.0-beta4",
     "Microsoft.Framework.Logging": "1.0.0-beta4",
     "Microsoft.Framework.Logging.Console": "1.0.0-beta4",
-    "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-beta4"
-    
+    "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-beta4",
+    "Microsoft.AspNet.WebApi.Core": "5.2.3"
+
   },
 
   "commands": {
     "web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost:5000",
     "gen": "Microsoft.Framework.CodeGeneration",
-    "ef":  "EntityFramework.Commands"
+    "ef": "EntityFramework.Commands"
   },
 
   "frameworks": {
